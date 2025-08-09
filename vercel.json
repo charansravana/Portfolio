@@ -2,6 +2,10 @@
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ],
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ],
   "headers": [
     {
       "source": "/(.*)",
@@ -29,7 +33,7 @@
       ]
     },
     {
-      "source": "/assets/(.*)",
+      "source": "/assets/:path*",
       "headers": [
         {
           "key": "Cache-Control",
@@ -38,7 +42,7 @@
       ]
     },
     {
-      "source": "/(.*)\\.(ico|png|svg|jpg|jpeg|gif|webp|avif)$",
+      "source": "/:path*\\.(ico|png|svg|jpg|jpeg|gif|webp|avif)",
       "headers": [
         {
           "key": "Cache-Control",
@@ -47,7 +51,7 @@
       ]
     },
     {
-      "source": "/(.*)\\.(js|css)$",
+      "source": "/:path*\\.(js|css)",
       "headers": [
         {
           "key": "Cache-Control",
