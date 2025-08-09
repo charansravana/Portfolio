@@ -1,5 +1,5 @@
 {
-  "rewrites": [
+   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ],
   "routes": [
@@ -33,7 +33,7 @@
       ]
     },
     {
-      "source": "/assets/:path*",
+      "source": "/assets/(.*)",
       "headers": [
         {
           "key": "Cache-Control",
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "source": "/:path*\\.(ico|png|svg|jpg|jpeg|gif|webp|avif)",
+      "source": "/(.*)\\.(ico|png|svg|jpg|jpeg|gif|webp|avif)$",
       "headers": [
         {
           "key": "Cache-Control",
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "source": "/:path*\\.(js|css)",
+      "source": "/(.*)\\.(js|css)$",
       "headers": [
         {
           "key": "Cache-Control",
