@@ -90,7 +90,7 @@ const ResumePage = () => {
               </div>
               <motion.a
                 href={cv}
-                download="myResume.pdf"
+                download="my_resume.pdf"
                 className="flex items-center px-3 md:px-4 text-xs md:text-lg py-2 bg-black text-white rounded-full hover:bg-gray-800 transition-colors"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
