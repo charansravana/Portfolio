@@ -19,7 +19,7 @@ const ResumePage = () => {
         },
         {
           id: 2,
-          title: "English Hand Digit Recognition System",
+          title: "Virtual Paint",
           company: "Freelance Projects",
           period: "Jan 2024 - Feb 2024",
           responsibilities: [
