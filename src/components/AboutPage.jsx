@@ -49,6 +49,25 @@ const AboutPage = () => {
       )
     },
     {
+      name: "SQL",
+      icon :(
+        <svg viewBox="0 0 256 256" className="w-5 h-5 fill-current">
+          <path d="M64 0h16v256H64V0zm56 64h16v128h-16V64zm56-32h16v192h-16V32z" />
+        </svg>
+      )
+    },
+
+    {
+      name : openCV,
+      icon : (
+        <svg viewBox="0 0 256 256" className="w-5 h-5 fill-current">
+          <path d="M64 0h16v256H64V0zm56 64h16v128h-16V64zm56-32h16v192h-16V32z" />
+        </svg>
+      )
+
+    },
+
+    {
       name: "HTML/CSS",
       icon: (
         <svg viewBox="0 0 24 24" className="w-5 h-5 fill-current">
