@@ -2,15 +2,15 @@ import React from "react"
 import { motion } from "framer-motion"
 import { Download } from "lucide-react"
 
-import cv from "../assets/myResume.pdf"
+import cv from "../assets/my_resume_latest.pdf"
 
 const ResumePage = () => {
     const experiences = [
         {
           id: 1,
           title: "AI-powered Plant Disease Detection System",
-          company: "GetMaterial",
-          period: "Dec 2024 - Present",
+          company: "Agrovision",
+          period: "Nov 2024 - Dec 2024",
           responsibilities: [
             "MobileNetV2-based AI system classifying 200+ images/min with 88% accuracy",
             "Reduced manual inspection time by 60% by automating disease detection in crops",
@@ -19,9 +19,9 @@ const ResumePage = () => {
         },
         {
           id: 2,
-          title: "Virtual Paint",
-          company: "Freelance Projects",
-          period: "Jan 2024 - Feb 2024",
+          title: "Virtual Paint using Hand gestures",
+          company: "Virtual Paint",
+          period: "Aug 2024 - Sep 2024",
           responsibilities: [
             "Built a machine learning system to recognize handwritten digits with over 75% accuracy",
             "Processed 150+ digits/min, reducing classification errors significantly",
@@ -30,8 +30,8 @@ const ResumePage = () => {
         {
           id: 3,
           title: "Amazon Laptop Price Dataset (Kaggle)",
-          company: "NIST College - Internship Program",
-          period: "Jul 2024 - Aug 2024",
+          company: "Kaggle",
+          period: "Jun 2024 - July 2024",
           responsibilities: [
             "Created and published a structured dataset using Amazon API",
             "Performed data cleaning and NLP-based feature engineering for price prediction and classification tasks",
@@ -64,6 +64,7 @@ const ResumePage = () => {
         "AWS (S3, EC2, Bedrock) ",
         "HTML5",
         "CSS3",
+        "SQL",
         "Git & GitHub",
       ];
 
@@ -90,7 +91,7 @@ const ResumePage = () => {
               </div>
               <motion.a
                 href={cv}
-                download="my_resume.pdf"
+                download="my_resume_latest.pdf"
                 className="flex items-center px-3 md:px-4 text-xs md:text-lg py-2 bg-black text-white rounded-full hover:bg-gray-800 transition-colors"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
