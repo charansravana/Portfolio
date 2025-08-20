@@ -51,18 +51,28 @@ const AboutPage = () => {
     {
       name: "SQL",
       icon :(
-        <svg viewBox="0 0 256 256" className="w-5 h-5 fill-current">
-          <path d="M64 0h16v256H64V0zm56 64h16v128h-16V64zm56-32h16v192h-16V32z" />
-        </svg>
+          <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      className="w-5 h-5 fill-current"
+    >
+      <path d="M12 2C6.48 2 2 4.24 2 7v10c0 2.76 4.48 5 10 5s10-2.24 10-5V7c0-2.76-4.48-5-10-5zm0 2c4.41 0 8 .9 8 2s-3.59 2-8 2-8-.9-8-2 .59-2 8-2zm0 16c-4.41 0-8-.9-8-2V9.69C5.64 10.51 8.61 11 12 11s6.36-.49 8-1.31V18c0 1.1-3.59 2-8 2z"/>
+    </svg>
       )
     },
 
     {
-      name : openCV,
+      name : "openCV",
       icon : (
-        <svg viewBox="0 0 256 256" className="w-5 h-5 fill-current">
-          <path d="M64 0h16v256H64V0zm56 64h16v128h-16V64zm56-32h16v192h-16V32z" />
-        </svg>
+        <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 64 64"
+      className="w-6 h-6"
+    >
+      <circle cx="20" cy="20" r="12" fill="#FF0000" />
+      <circle cx="44" cy="20" r="12" fill="#00FF00" />
+      <circle cx="32" cy="40" r="12" fill="#0000FF" />
+    </svg>
       )
 
     },
