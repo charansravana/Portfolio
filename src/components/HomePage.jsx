@@ -64,7 +64,7 @@ function HomePage() {
               </a>
 
               <a
-                href="https://www.linkedin.com/in/sravana-charan-b02700292"
+                href="https://www.linkedin.com/in/sravana-charan"
                 target="_blank"
                 className="bg-orange-100 hover:bg-orange-200 transition-all rounded-full p-2"
                 rel="noreferrer"

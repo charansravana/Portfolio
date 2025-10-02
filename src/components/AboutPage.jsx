@@ -216,7 +216,7 @@ const AboutPage = () => {
                   <Github className="w-6 h-6" />
                 </a>
 
-                <a href='https://www.linkedin.com/in/sravana-charan-b02700292/' target='_blank' className="p-3 hover:bg-gray-100 rounded-lg transition-colors">
+                <a href='https://www.linkedin.com/in/sravana-charan' target='_blank' className="p-3 hover:bg-gray-100 rounded-lg transition-colors">
                   <Linkedin className="w-6 h-6" />
                 </a>
                 <a href="mailto:charansravana2003@gmail.com" target='_blank' className="p-3 hover:bg-gray-100 rounded-lg transition-colors">
