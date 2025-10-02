@@ -41,7 +41,7 @@ function HomePage() {
               transition={{ duration: 0.5 }}
               className="text-balance z-50 bg-amber-100 rounded-tl-xl pr-0 rounded-tr-lg text-3xl sm:text-4xl md:text-5xl lg:text-6xl lg:ml-48 mt-3 font-semibold leading-none tracking-tighter text-center lg:text-left"
             >
-              <span className="pr-2">Machine Learning </span>
+              <span className="pr-2">Aspiring AI and ML </span>
               <LineShadowText className="italic bg-orange-200 rounded-tr-3xl pr-4 pl-2" shadowColor={shadowColor}>
                 Engineer
               </LineShadowText>
