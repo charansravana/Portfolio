@@ -87,11 +87,11 @@ const ResumePage = () => {
             <div className="flex justify-between items-start mb-6">
               <div>
                 <h1 className="md:text-3xl text-xl font-bold text-gray-800">S Charan</h1>
-                <p className="md:text-xl text-base text-gray-600">Machine Learning Engineer</p>
+                <p className="md:text-xl text-base text-gray-600">Aspiring AI and ML Engineer</p>
               </div>
               <motion.a
                 href={cv}
-                download="my_resume_latest.pdf"
+                download="charan_latest_resume.pdf"
                 className="flex items-center px-3 md:px-4 text-xs md:text-lg py-2 bg-black text-white rounded-full hover:bg-gray-800 transition-colors"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
