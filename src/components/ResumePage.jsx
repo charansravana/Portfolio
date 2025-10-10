@@ -2,7 +2,7 @@ import React from "react"
 import { motion } from "framer-motion"
 import { Download } from "lucide-react"
 
-import cv from "../assets/my_resume_latest.pdf"
+import cv from "../assets/charan_latest_resume.pdf"
 
 const ResumePage = () => {
     const experiences = [
