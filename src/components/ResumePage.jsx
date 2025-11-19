@@ -2,7 +2,7 @@ import React from "react"
 import { motion } from "framer-motion"
 import { Download } from "lucide-react"
 
-import cv from "../assets/charan_latest_resume.pdf"
+import cv from "../assets/Charan_Latest_Resume.pdf"
 
 const ResumePage = () => {
     const experiences = [
@@ -91,7 +91,7 @@ const ResumePage = () => {
               </div>
               <motion.a
                 href={cv}
-                download="charan_latest_resume.pdf"
+                download="Charan_Latest_Resume.pdf"
                 className="flex items-center px-3 md:px-4 text-xs md:text-lg py-2 bg-black text-white rounded-full hover:bg-gray-800 transition-colors"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
