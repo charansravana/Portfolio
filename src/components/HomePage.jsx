@@ -9,7 +9,7 @@ import HyperText from "@/components/ui/hyper-text"
 import { ShinyButton } from "@/components/ui/shiny-button"
 import { RainbowButton } from "@/components/ui/rainbow-button"
 import { motion } from "framer-motion"
-import myphoto from "../assets/farewell.png"
+import photo from "../assets/photo.jpeg"
 import { Github, Linkedin } from "lucide-react"
 
 function HomePage() {
@@ -83,7 +83,7 @@ function HomePage() {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            src={myphoto}
+            src={photo}
             alt=""
             className="w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 border-b-4 border-green-900 rounded-full object-cover"
           />
