@@ -12,7 +12,7 @@ const projects = [
   {
     id: 1,
     title: 'Plant Disease Detection 🌿',
-    description: 'Web app with an AI model using MobileNetV2 to detect crop diseases with 92% accuracy. Added early exit concept to reduce computational power and provide faster results by exiting the model pipeline when confident predictions are made.',
+    description: 'Web app with an AI model using MobileNetV2 to detect crop diseases with 91% accuracy. Added early exit concept to reduce computational power and provide faster results by exiting the model pipeline when confident predictions are made.',
     image: img4,
     tags: ['MobileNetV2', 'Computer Vision', 'TensorFlow', 'Early Exit', 'Agritech', 'Web App'],
     github: 'https://github.com/yourusername/plant-disease-detector',
