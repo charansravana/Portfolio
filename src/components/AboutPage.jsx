@@ -130,8 +130,7 @@ const AboutPage = () => {
             initial={{ opacity: 0, y: -30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }} className="text-xl text-gray-600">
-            Hi i am Sravana Charan , an engineering student and aspiring Machine Learning Engineer with a passion for developing intelligent systems, leveraging data to build impactful, real-world solutions.
-          </motion.h1>
+              Hi, I am Sravana Charan, an engineering graduate with experience in Artificial Intelligence and .NET application development. I have worked on Machine Learning, Large Language Models (LLMs), WCF Services, Web APIs and SQL Server. I am passionate about building efficient, scalable and impactful software solutions.          </motion.h1>
         </div>
 
         {/* Main Content */}
@@ -147,8 +146,7 @@ const AboutPage = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }} className="text-gray-600 leading-relaxed">
-                Currently pursuing my engineering degree while actively developing practical machine learning solutions. I specialize in building high-speed image classifiers for crop disease detection, handwritten digit recognition, and NLP-based price prediction using real-world datasets. Passionate about creating scalable, data-driven AI applications.
-              </motion.h1>
+                  My journey started with Artificial Intelligence and Machine Learning, where I developed intelligent solutions using deep learning and Large Language Models (LLMs). Today, I combine that foundation with hands-on experience in .NET technologies including C#, WCF Services, Web APIs and SQL Server, to build scalable, reliable and real-world software applications.              </motion.h1>
             </div>
 
             {/* Education Timeline */}

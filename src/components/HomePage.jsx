@@ -9,7 +9,7 @@ import HyperText from "@/components/ui/hyper-text"
 import { ShinyButton } from "@/components/ui/shiny-button"
 import { RainbowButton } from "@/components/ui/rainbow-button"
 import { motion } from "framer-motion"
-import myphoto from "../assets/myphoto.png"
+import myphoto from "../assets/farewell.png"
 import { Github, Linkedin } from "lucide-react"
 
 function HomePage() {

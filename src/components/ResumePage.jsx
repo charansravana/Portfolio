@@ -2,7 +2,7 @@ import React from "react"
 import { motion } from "framer-motion"
 import { Download } from "lucide-react"
 
-import cv from "../assets/Charan_Latest_Resume.pdf"
+import cv from "../assets/AI_ML_Engineer.pdf"
 
 const ResumePage = () => {
     const experiences = [
@@ -38,14 +38,25 @@ const ResumePage = () => {
             "Improved data preprocessing, API handling, and ML pipeline experience",
           ],
         },
-      ];
+        {
+          id: 4,
+          title: "Sanket: Sign to Speech Translator",
+          company: "Personal Project",
+          period: "Jan 2025 - Apr 2025",
+          responsibilities: [
+            "Developed an AI-powered sign language recognition system using MediaPipe, MobileNetV2, Multi-Head Attention, and BiLSTM, achieving ~87% accuracy across 32 sign classes",
+            "Implemented video preprocessing, frame normalization, data augmentation, and pose-based feature extraction to improve model robustness and real-world performance",
+            "Built an end-to-end sign-to-speech pipeline using the WLASL dataset for real-time gesture recognition and speech translation",
+        ],
+      },
+    ];
     
       const education = [
         {
           id: 1,
           degree: "Bachelor of Technology in Computer Science and Engineering",
           institution: "NIST University, Berhampur",
-          year: "2022 - Present",
+          year: "2022 - 2026",
           achievements: [
             "Participated in Smart India Hackathon 2024 with a focus on agricultural innovations",
             "Consistently ranked among the top 5 students in Academics",
@@ -54,18 +65,24 @@ const ResumePage = () => {
       ];
     
       const skills = [
-        "TensorFlow & Keras ",
-        "OpenCV",
-        "Pandas & NumPy",
-        "Matplotlib & Seaborn",
-        "Python ",
-        "java",
-        "c",
-        "AWS (S3, EC2, Bedrock) ",
-        "HTML5",
-        "CSS3",
+        "Python",
+        "C",
+        "C#",
         "SQL",
-        "Git & GitHub",
+        ".NET Framework",
+        "WCF Services",
+        "Web APIs",
+        "SQL Server",
+        "OpenCV",
+        "TensorFlow & Keras",
+        "Scikit-learn",
+        "NumPy & Pandas",
+        "Git",
+        "GitHub",
+        "AWS (S3, EC2, Bedrock)",
+        "Language Model Fine-tuning",
+        "Debugging",
+        "Production Support",
       ];
 
   const fadeInUp = {
@@ -91,7 +108,7 @@ const ResumePage = () => {
               </div>
               <motion.a
                 href={cv}
-                download="Charan_Latest_Resume.pdf"
+                download="AI_ML_Engineer.pdf"
                 className="flex items-center px-3 md:px-4 text-xs md:text-lg py-2 bg-black text-white rounded-full hover:bg-gray-800 transition-colors"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}

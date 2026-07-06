@@ -6,6 +6,7 @@ import img2 from '../assets/virtual paint.png';
 import img3 from '../assets/picaura.png'
 import img4 from '../assets/Plant disease detection.png'
 import img5 from '../assets/openroom-image.png';
+import img7 from '../assets/sanket.png';
 
 const projects = [
   {
@@ -30,10 +31,30 @@ const projects = [
     id: 3,
     title: 'Amazon Price Prediction 🛒',
     description: 'Scraped product data using Amazon API, cleaned and engineered features using NLP for price prediction and category classification.',
-    image: img5,
+    image: img6,
     tags: ['NLP', 'Data Scraping', 'Pandas', 'Machine Learning'],
     link: 'https://www.kaggle.com/datasets/sravanacharan/amazon-us-laptop-dataset2025'
-  }
+  },
+  {
+  id: 4,
+  title: "Sanket: Sign to Speech Translator 🤟",
+  description:
+    "Developed an AI-powered sign language recognition system using WLASL, MediaPipe, MobileNetV2, Multi-Head Attention, and BiLSTM, achieving ~87% accuracy across 32 sign classes. Built a robust video preprocessing pipeline with frame normalization, augmentation, and pose-based feature extraction for real-time sign-to-speech translation.",
+  image: img7, 
+  tags: [
+    "Deep Learning",
+    "Computer Vision",
+    "MediaPipe",
+    "MobileNetV2",
+    "BiLSTM",
+    "Multi-Head Attention",
+    "TensorFlow",
+    "Sign Language"
+  ],
+  github: "https://github.com/yourusername/sanket-sign-to-speech",
+  link: "https://sanket-sih.vercel.app/"
+}
+
 
   // {
   //   id: 4,
