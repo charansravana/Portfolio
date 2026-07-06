@@ -64,14 +64,7 @@ const projects = [
   //   github: 'https://github.com/yourusername/early-exit-dnn',
   //   link: 'https://github.com/yourusername/early-exit-dnn'
   // },
-  // {
-  //   id: 5,
-  //   title: 'Keep Notes Clone',
-  //   description: 'A Note making website with React . This is a clone of google keep notes . I built it with very clean UI. ',
-  //   image: img1,
-  //   tags: ['React', 'Node.js', 'Tailwind css','Javascript','HTML/CSS'],
-  //   link: 'https://thekeepnotes.vercel.app/'
-  // }
+
 ];
 
 const ProjectCard = ({ project }) => (
