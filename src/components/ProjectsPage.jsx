@@ -6,7 +6,7 @@ import img2 from '../assets/virtual paint.png';
 import img3 from '../assets/picaura.png'
 import img4 from '../assets/Plant disease detection.png'
 import img5 from '../assets/openroom-image.png';
-import img7 from '../assets/sanket.png';
+import img7 from '../assets/Sanket.png';
 import img8 from '../assets/laptop.png';
 const projects = [
   {
